@@ -1,15 +1,11 @@
 #!/bin/bash
 
-#ip="$1"
 mkdir tmp
 cd tmp
-echo "=== Downloading pyo-bela binaries. ==="
-wget -q https://github.com/alexdrymonitis/pyo-bela/releases/download/v1.0.6/dist-packages.tar.bz2
-echo "=== Extracting pyo-bela binaries. ==="
-tar xjf dist-packages.tar.bz2
-echo "=== Copying files to /usr/local/lib ==="
-#scp -r -q dist-packages/ root@${ip}:/usr/local/lib/python3.11/
-cp -r dist-packages/* /usr/local/lib/python3.11/
+echo "=== Downloading pyo-bela wheel. ==="
+wget -q https://github.com/alexdrymonitis/pyo-bela/releases/download/v1.0.6/pyo-1.0.6-cp311-cp311-linux_aarch64.whl
+echo "=== Installing with pip ==="
+python3 -m pip install --user --break-system-packages ../../pyo/dist/pyo-1.0.6-cp311-cp311-linux_aarch64.whl
 echo "=== Cleanup. ==="
 cd ..
 rm -r tmp

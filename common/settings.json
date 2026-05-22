@@ -1,19 +1,186 @@
 {
-  "fileName": "render.cpp",
-  "CLArgs": {
-    "-p": "16",
-    "-C": "8",
-    "-B": "16",
-    "-H": "-6",
-    "-N": "1",
-    "-G": "1",
-    "-M": "0",
-    "-D": "0",
-    "-A": "0",
-    "--pga-gain-left": "10",
-    "--pga-gain-right": "10",
-    "user": "",
-    "make": "CPPFLAGS=-I/usr/include/python2.7 -I/usr/include/arm-linux-gnueabihf/python2.7 -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -g0 -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -fwrapv -O3 -Wall -Wstrict-prototypes;LDFLAGS=-L/usr/lib/python1.7/config-arm-linux-gnueabihf -L/usr/lib;LDLIBS=-lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O2 -Wl,-Bsymbolic-functions"
-  },
-  "breakpoints": []
+    "version": 2,
+    "parameters": {
+        "blockSize": 32,
+        "bitDepth": 24,
+        "sampleRate": 48000,
+        "analogChannels": 8,
+        "uniformSampleRate": true,
+        "useAnalog": true,
+        "useDigital": true,
+        "muteSpeaker": false,
+        "disableLED": false,
+        "headphoneGains": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "userArguments": "",
+        "makeParameters": "CPPFLAGS=-I/usr/include/python3.11 -I/usr/include/aarch64-linux-gnu/python3.11 -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -g0 -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -fwrapv -O3 -Wall -Wstrict-prototypes;LDFLAGS=-L/usr/lib/python3.11/config3.11-aarch64-linux-gnu -L/usr/lib;LDLIBS=-lpython3.11 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -Wl,-O2 -Wl,-Bsymbolic-functions",
+        "multiplexer": 0,
+        "audioExpander": false,
+        "y": [],
+        "z": [],
+        "adcLatency": 8,
+        "dacLatency": 9,
+        "equalLatency": false,
+        "audioInputChannelSettings": [
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            },
+            {
+                "impedance": "10k",
+                "couplingAndInput": "AC single-ended",
+                "gain": null
+            }
+        ],
+        "audioOutputChannelSettings": [
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            },
+            {
+                "meterStyle": "AC",
+                "gain": -6
+            }
+        ],
+        "globalInputGainControl": {
+            "enabled": false,
+            "gain": 0
+        },
+        "globalOutputGainControl": {
+            "enabled": false,
+            "gain": 0
+        },
+        "inputMicBias": "2.75V",
+        "recordOptions": {
+            "signalsToRecord": {
+                "audioOut": true,
+                "audioIn": true,
+                "sensors": true,
+                "digitalIO": true
+            },
+            "recordEveryTimeProgramStarts": false
+        },
+        "playOptions": {
+            "audioIn": {
+                "override": false,
+                "file": "",
+                "loop": false
+            },
+            "analogIn": {
+                "override": false,
+                "file": "",
+                "loop": false
+            },
+            "digitalIO": {
+                "override": false,
+                "file": "",
+                "loop": false
+            }
+        }
+    }
 }
