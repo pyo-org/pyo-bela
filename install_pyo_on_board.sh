@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir ../pyo
+mkdir ../pyo/dist
 mkdir tmp
 cd tmp
 echo "=== Downloading pyo-bela wheel. ==="
