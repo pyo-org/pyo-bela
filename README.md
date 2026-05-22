@@ -10,12 +10,15 @@ Step 1 - Clone or download the needed repos from github
 -------------------------------------------------------
 
 Flash the Bela image on your SD card
-SSH into your board with:
-ssh root@bela.local (or root@192.168.6.2 or 192.168.7.2, depending on your host computer system)
-
 If your board has an internet connection,
 clone the Pyo-bela repository straight on your Bela board,
-otherwise clone it in your computer first, with:
+otherwise clone it in your computer first.
+If you do this straight on the Bela, you can either SSH to the board with:
+
+    ssh root@bela.local
+
+or you can just type all these commands in the command entry at the bottom part of the window.
+Clone the pyo-bela repository with:
 
     git clone https://github.com/alexdrymonitis/pyo-bela.git
 
