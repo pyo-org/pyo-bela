@@ -82,12 +82,6 @@ Copy the pyo-bela/build_pyo.sh script to Bela/scripts folder and make it executa
     cp build_pyo.sh ../scripts
     chmod +x ../scripts/build_pyo.sh
 
-At this point, if you never update the board (i.e. you just flashed your sd card), you
-should probably call the script update_board to copy the latest framework from Bela to your board (you'll need internet access for this):
-
-    cd ../scripts
-    ./update_board
-
 Step 6 - Compile and run a pyo-bela project
 -------------------------------------------
 
