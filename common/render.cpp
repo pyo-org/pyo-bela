@@ -8,7 +8,7 @@
 Pyo pyo;
 
 void Bela_userSettings(BelaInitSettings *settings) {
-    settings->periodSize = 32;
+    settings->periodSize = 16;
     settings->uniformSampleRate = 1;
     settings->numAnalogInChannels = 8;
     //settings->numAnalogOutChannels = 8;
