@@ -113,5 +113,5 @@ For a complete description of functions that can be used to communicate
 with the Pyo embedded processes, see documentation comments in the file 
 common/PyoClass.cpp.
 
-(c) 2026 - belangeo
+(c) 2026 - pyo-org
 
