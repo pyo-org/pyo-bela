@@ -31,7 +31,7 @@ If you do this straight on the Bela, you can either SSH to the board with:
 or you can just type all these commands in the command entry at the bottom part of the IDE in your browser.
 Clone the pyo-bela repository with:
 
-    git clone https://github.com/alexdrymonitis/pyo-bela.git
+    git clone https://github.com/pyo-org/pyo-bela.git
 
 If you clone it in your computer, copy it to your board with:
 
@@ -47,7 +47,7 @@ If your board has an internet connection, follow this step
 straight in your board, otherwise go to step 4.
 To download and install the latest Pyo wheels on the board, run the 
 script _install\_pyo\_on\_board.sh_ from pyo-bela sources (or follow
-instructions on the [release page](https://github.com/alexdrymonitis/pyo-bela/releases)):
+instructions on the [release page](https://github.com/pyo-org/pyo-bela/releases)):
 
     cd pyo-bela
     ./install_pyo_on_board.sh
@@ -57,7 +57,7 @@ Step 4 - Download Pyo wheel on your computer
 
 If your board doesn't have an internet connection
 download the Bela Gem Pyo wheels from
-https://github.com/alexdrymonitis/pyo-bela/releases/download/v1.0.6/pyo-1.0.6-cp311-cp311-linux_aarch64.whl.
+https://github.com/pyo-org/pyo-bela/releases/download/v1.0.6/pyo-1.0.6-cp311-cp311-linux_aarch64.whl.
 
 Then open the IDE in your browser or SSH into your board with:
 
